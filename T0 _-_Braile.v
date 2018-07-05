@@ -29,10 +29,10 @@ end
 	letra <= 7'b1001111;
 end
 
-		//Letra E
-	/*else if ((SW[0] == 1) && (SW[1] == 0) && (SW[2] == 0) && (SW[3] == 1) && (SW[4] == 1) && (SW[5] == 0)) begin
-	letra <= 7'b;
-end*/
+	//Letra E
+	else if ((SW[0] == 1) && (SW[1] == 0) && (SW[2] == 0) && (SW[3] == 1) && (SW[4] == 1) && (SW[5] == 0)) begin
+	letra <= 7'b1110011;
+end
 
 //Letra F
 else if ((SW[0] == 1) && (SW[1] == 1) && (SW[2] == 1) && (SW[3] == 1) && (SW[4] == 0) && (SW[5] == 0)) begin
